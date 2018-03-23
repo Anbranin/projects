@@ -1,0 +1,35 @@
+In this assignment you will write two classes, Project3 and
+UseArray. The UseArray class includes a private integer array, myArray.
+This class contains the following five methods:
+
+
+ 1. constructor, which creates the array. The constructor takes a
+ single integer parameter: an integer representing the length of
+ the array.
+ =============
+
+ 2.A readValues method that prompts a user for integer input values,
+ reads the values, and stores them in the array. The method only
+ stores inputs that are odd multiples of 3 in the array. Prompting
+ and reading continues until the array either is full or the value
+ 999 is entered. If 999 is entered before any values were stored,
+ an appropriate error message should be printed and the prompting
+ and reading process should be restarted. You should not store the
+ value 999 in the array.
+
+
+ 3. A findAverage method that finds and returns the average (mean)
+ the values stored in the array. The mean is the sum of the stored
+ values divided by the number of stored values. The returned
+ values is of type double.
+
+
+4. A findDifference method that calculates and returns the
+ difference between the largest value and the smallest value
+ stored in the array.
+
+ 5. A printValues method that prints the values stored in the array
+ in reverse order from the order in which they are stored (e.g.
+ the last value stored should be printed first, the second-to-last
+ value should be printed second, and so forth). Only non-zero
+ values in the array should be printed.

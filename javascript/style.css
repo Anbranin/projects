@@ -1,0 +1,38 @@
+#calendar{
+  display: flex;
+  flex-direction:column;
+}
+.monthDiv{
+  border: 1px solid red;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  margin: 1em;
+}
+.weekDiv{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid orange;
+  padding: .5em;
+  margin: .5em;
+}
+.firstWeekDiv{
+  display: flex;
+  border: 1px solid orange;
+  padding: .5em;
+  margin: .5em;
+  justify-content: flex-end;
+}
+.monthHeader{
+  display: flex;
+  border: 1px solid orange;
+  padding: .5em;
+  margin: .5em;
+}
+.firstWeekDayDiv{
+  border: 1px solid green;
+}
+.weekDayDiv{
+  border: 1px solid green;
+}
